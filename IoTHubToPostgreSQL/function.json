@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "IoTHubTrigger",
+      "direction": "in",
+      "path": "<event-hub-name>",
+      "connection": "iothub-ehub",
+      "consumerGroup": "<consumer-group-name>"
+    }
+  ],
+  "disabled": false
+}
